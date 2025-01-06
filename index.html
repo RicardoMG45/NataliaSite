@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Psicóloga</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Psicología</h1>
+      <h2 class="nombre">Natalia Armenta Centeno</h2>
+      <nav>
+        <ul class="nav">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="inicio" class="hero">
+    <div class="container">
+      <h2>Bienvenidos a mi consulta</h2>
+      <p>Ayudándote a encontrar el equilibrio emocional y bienestar mental.</p>
+    </div>
+  </section>
+
+  <section id="servicios" class="hero">
+    <div class="container">
+      <h2>Mis servicios</h2>
+      <ul class="services-list">
+        <li><strong>Consultas Psicológicas:</strong> Terapia individual, de pareja, familiar y grupal (presencial y en línea).</li>
+        <li><strong>Terapias Especializadas:</strong> Terapia cognitivo-conductual, humanista, mindfulness y más.</li>
+        <li><strong>Evaluaciones Psicológicas:</strong> Diagnósticos psicométricos, emocionales y cognitivos.</li>
+        <li><strong>Talleres y Charlas:</strong> Manejo de estrés, autoestima, habilidades de comunicación.</li>
+        <li><strong>Atención en Crisis:</strong> Apoyo emocional, manejo de duelo y emergencias.</li>
+        <li><strong>Consultoría para Empresas:</strong> Evaluación de clima laboral, bienestar y pruebas psicométricas.</li>
+      </ul>
+    </div>
+  </section>  
+
+  <section id="sobre-mi" class="about">
+    <div class="container">
+      <h2>Sobre mí</h2>
+      <p>¡Hola! Soy Natalia Armenta Centeno, una profesional comprometida con tu bienestar emocional. Cuento con 5 años de experiencia ayudando a personas a alcanzar su equilibrio emocional y desarrollar herramientas para una vida más plena.</p>
+      <p>Mi formación incluye:</p>
+      <ul class="about-list">
+        <li><strong>Título en Psicología:</strong> Universidad Autónoma de Ciudad Juárez.</li>
+        <li><strong>Especialización en:</strong> Terapia cognitivo-conductual y manejo del estrés.</li>
+        <li><strong>Certificaciones:</strong> Mindfulness, técnicas de relajación y manejo de crisis.</li>
+      </ul>
+      <p>Mi enfoque está basado en la empatía, el respeto y un compromiso genuino con tus objetivos personales. Estoy aquí para acompañarte en cada paso de tu proceso.</p>
+    </div>
+  </section>
+
+  <section id="contacto" class="contact">
+    <div class="container">
+      <h2>Contacto</h2>
+      <p>Estoy aquí para ayudarte. Si tienes alguna pregunta o deseas agendar una cita, no dudes en contactarme.</p>
+      
+      <form action="mailto:correo@psicologa.com" method="post" enctype="text/plain">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+        
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+        
+        <button type="submit">Enviar mensaje</button>
+      </form>
+    </div>
+  </section>  
+  
+</body>
+</html>
